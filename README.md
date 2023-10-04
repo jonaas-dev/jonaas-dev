@@ -21,12 +21,12 @@ Full Stack Developer (Web), backend focused.
 </div>
 <br>
 <li>:man_student: I studied Computer Science at University (completed in 2020)</li>
-<li>:desktop_computer: I work as a computer programmer in small company </li>
+<li>:desktop_computer: I work as a software developer in a start-up </li>
 <li>:earth_americas: I’m from Spain </li>
 <li>:loudspeaker: I’m a hardworking and a very talkative person </li>
-<li>:couple: I really enjoy meeting new people and asking anything (I'm a curious person) </li>
-<li>:books: I love books, especially non-fiction books.</li>
-<li>:mountain: I like motorbikes and adventures in my town.</li>
+<li>:couple: I really enjoy meeting new people </li>
+<li>:books: I love books, especially non-fiction books</li>
+<li>:mountain: I like motorbikes and adventures in my town</li>
 <br>
 <br>
 <i>Be yourself, everyone else is already taken.</i><br>
