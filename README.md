@@ -14,7 +14,7 @@ Full Stack Developer (Web), backend focused.
 <li>:books: I love books, especially non-fiction books</li>
 <li>:mountain: I like motorbikes and adventures in my town</li>
 
-<h2> Technologies</h2>
+<h2> Some Technologies</h2>
 
 [![Python](https://img.shields.io/badge/Python-yellow?style=for-the-badge&logo=python&logoColor=white&labelColor=101010)]()
 ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
@@ -48,6 +48,7 @@ And more...
 <h2> Some Projects</h2>
 Loading ...
 
+<!--
 <h2> Social networks</h2>
 <div id="badges">
   <a href="https://www.instagram.com/TODO/">
@@ -60,7 +61,9 @@ Loading ...
     <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
   </a>
 </div>
-
+-->
+<br>
+<br>
 <br>
 <br>
 <div>
