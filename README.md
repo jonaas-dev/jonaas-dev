@@ -1,75 +1,32 @@
+## Jonathan Sánchez — Backend Lead & Engineering Manager
 
-<h1> Hi, my name is Jonas :wave:</h1>
+I lead an 8-person engineering team and design the backends we ship, mostly in Python.
+What interests me is software that is still cheap to change in year three: the domain before
+the framework, explicit API contracts, and a test suite you trust enough to deploy on a Friday.
 
-<h2> About me</h2>
-Full Stack Developer (Web), backend focused.
-<br>
+### How I work
 
-<br>
-<li>:man_student: I studied Computer Science at University (completed in 2020)</li>
-<li>:desktop_computer: I work as a software developer in a start-up </li>
-<li>:earth_americas: I’m from Spain </li>
-<li>:loudspeaker: I’m a hardworking and a very talkative person </li>
-<li>:couple: I really enjoy meeting new people </li>
-<li>:books: I love books, especially non-fiction books</li>
-<li>:mountain: I like motorbikes and adventures in my town</li>
+- **API-first** — the OpenAPI contract is hand-written and is the source of truth. The typed
+  client and the mocks are generated from it, never the other way round.
+- **Domain before framework** — structure by domain and layer, ports and adapters, the ORM
+  confined to the repository layer and kept there by an import linter rather than by good intentions.
+- **Tests are part of the design** — unit tests with doubles, integration against a real
+  Postgres (testcontainers, never a mocked database), E2E as the merge gate.
+- **Quality measured, not asserted** — a quality gate in CI, and Sonar at zero before merging.
 
-<h2> Some Technologies</h2>
+### Projects
 
-[![Python](https://img.shields.io/badge/Python-yellow?style=for-the-badge&logo=python&logoColor=white&labelColor=101010)]()
-![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
-</br>
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-</br>
-[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white&labelColor=101010)]()
-[![Node.JS](https://img.shields.io/badge/Node.JS-339933?style=for-the-badge&logo=node.js&logoColor=white&labelColor=101010)]()
-</br>
-[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white&labelColor=101010)]()
-[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white&labelColor=101010)]()
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-</br>
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)
-![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white)
-</br>
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white&labelColor=101010)]()
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-</br>
-![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+| Project | What it is |
+| --- | --- |
+| **[engineering-notes](https://github.com/jonaas-dev/engineering-notes)** | A reading notebook on engineering and technical leadership, kept since 2023: architecture, code quality, backend, delivery and career. 63 notes, consolidated from eight separate repositories. |
 
-And more...
+Most of what I work on is private — a client's product, or my own not yet ready to show.
+This list grows as that changes rather than being padded to look longer.
 
-<h2> Some Projects</h2>
-Loading ...
+### Stack
 
-<!--
-<h2> Social networks</h2>
-<div id="badges">
-  <a href="https://www.instagram.com/TODO/">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram Badge"/>
-  </a>
-  <a href="your-youtube-URL">
-    <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
-  </a>
-  <a href="your-twitter-URL">
-    <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
-  </a>
-</div>
--->
-<br>
-<br>
-<br>
-<br>
-<div>
-  <img src="./content/about_me/beach.png" width="270px" height="80px">
-  <img src="./content/about_me/mountain.png" width="270px" height="80px">
-</div>
+Python · FastAPI · SQLAlchemy 2 · PostgreSQL · Redis · Docker · TypeScript · Angular
 
-<i>Be yourself, everyone else is already taken.</i><br>
-<i>Oscar Wilde</i>
+### Elsewhere
+
+[LinkedIn](https://www.linkedin.com/in/jonathan-sanchez-peiris/) · [jonas-blog.es](https://jonas-blog.es/)
