@@ -1,8 +1,13 @@
 ## Jonathan Sánchez — Backend Lead & Engineering Manager
 
 I lead an 8-person engineering team and design the backends we ship, mostly in Python.
+Six years in, the last three in regulated fintech — KYC, due diligence and compliance, where
+"it works on my machine" is not a defence and an audit trail is a feature.
+
 What interests me is software that is still cheap to change in year three: the domain before
 the framework, explicit API contracts, and a test suite you trust enough to deploy on a Friday.
+Half the job is the code; the other half is the standards, the RFCs and the 1:1s that make a
+team produce the same code when I am not in the room.
 
 ### How I work
 
@@ -25,7 +30,10 @@ This list grows as that changes rather than being padded to look longer.
 
 ### Stack
 
-Python · FastAPI · SQLAlchemy 2 · PostgreSQL · Redis · Docker · TypeScript · Angular
+Python · Django · FastAPI · SQLAlchemy 2 · PostgreSQL · Redis · Docker · TypeScript · Angular
+
+Earlier: PHP and Yii2, including a 7.4 → 8.2 migration and a role-based access control layer
+for an education platform.
 
 ### Elsewhere
 
