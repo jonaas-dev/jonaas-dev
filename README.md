@@ -95,17 +95,6 @@ look longer.
 
 ---
 
-## GitHub stats
-
-<p align="center">
-  <img alt="Jonathan's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=jonaas-dev&show_icons=true&theme=dark&hide_border=true&bg_color=2b3137&title_color=ffffff&text_color=ffffff&icon_color=ffffff">
-  <img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jonaas-dev&layout=compact&theme=dark&hide_border=true&bg_color=2b3137&title_color=ffffff&text_color=ffffff">
-</p>
-
-> Most of my work is in private repositories, so these numbers only reflect public activity.
-
----
-
 <p align="center">
   ❝ Simplicity is prerequisite for reliability. ❞<br>
   <sub>— Edsger W. Dijkstra, EWD498, 1975</sub>
