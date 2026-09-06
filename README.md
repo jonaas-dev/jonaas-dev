@@ -23,7 +23,9 @@ change takes to get out, how often it breaks, how fast we recover.
 noise, and measuring it teaches a team to optimise the wrong thing.
 
 **Decisions get written down.** RFCs and PRDs before the code, so the argument happens once and
-the reasoning outlives the people who had it.
+the reasoning outlives the people who had it. I built the documentation system the team works
+from — architecture, standards, playbooks — because a practice that lives in one person's head
+is not a standard.
 
 > ❝ The competent programmer is fully aware of the limited size of his own skull. ❞
 > — Edsger W. Dijkstra, *The Humble Programmer*, EWD340
@@ -34,6 +36,9 @@ prioritised against features, paid on purpose.
 **Review at scale.** I automate the mechanical half of code review with AI, so the team spends
 its attention on design instead of on style.
 
+**Growing the people, not just the codebase.** 1:1s, career development, hiring and onboarding,
+and running the workshops that unblock a team faster than answering the same question six times.
+
 Planning and roadmap, performance, error monitoring, and keeping the bug funnel from quietly
 becoming a second backlog.
 
@@ -43,11 +48,22 @@ becoming a second backlog.
 
 | Domain | Stack | What I work on |
 | --- | --- | --- |
-| **Fintech** · current | Python · FastAPI · Django · microservices | Started in compliance and KYC, now across the platform: transfer agency, portfolio management, reporting, Odoo |
-| **Edtech** | PHP · Yii2 · Angular · Firebase | Full stack and third-party integration, including a 7.4 → 8.2 migration and a role-based access control layer |
+| **Fintech** · current | Python · Django · FastAPI · microservices · PostgreSQL · MongoDB · OpenSearch | Started in compliance and KYC, now across the platform: transfer agency, portfolio management, reporting, Odoo |
+| **Edtech** | PHP · Yii2 · Angular · Firebase | Full stack and third-party integration, including a 7.4 → 8.2 migration, a role-based access control layer, and Microsoft Teams Education |
 
-The domain before the framework, explicit API contracts, and a test suite you trust enough to
-deploy on a Friday. Software that is still cheap to change in year three is the whole objective.
+**Hexagonal architecture and DDD**, in production rather than in a diagram: Python and Django
+microservices structured by domain, integrated with external systems through queues, webhooks
+and OpenSearch.
+
+A number I am proud of: **test coverage on the compliance modules taken to 92%**, alongside
+paying down the technical debt around them. Compliance is where an untested branch stops being
+a bug and starts being an audit finding.
+
+Also: SQL query optimisation and data pipelines, dynamic KYC review flows driven by roles, and
+a Four Eyes control migrated into the monitoring process.
+
+The domain before the framework, and a test suite you trust enough to deploy on a Friday.
+Software that is still cheap to change in year three is the whole objective.
 
 > ❝ Program testing can be used to show the presence of bugs, but never to show their absence! ❞
 > — Edsger W. Dijkstra, *Notes on Structured Programming*, 1970
@@ -60,10 +76,11 @@ deploy on a Friday. Software that is still cheap to change in year three is the 
 
 | | |
 | --- | --- |
-| **Languages** | Python · TypeScript · PHP |
-| **Data** | PostgreSQL · SQLAlchemy · Redis |
-| **Infra** | Docker · CI quality gates |
-| **Front** | Angular |
+| **Languages** | Python · PHP · TypeScript |
+| **Frameworks** | Django · FastAPI · Yii2 |
+| **Data & search** | PostgreSQL · MongoDB · OpenSearch |
+| **Integration** | Queues · webhooks · Odoo |
+| **Front** | Angular · Firebase |
 
 ---
 
