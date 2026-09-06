@@ -88,7 +88,7 @@ Software that is still cheap to change in year three is the whole objective.
 
 | Project | What it is |
 | --- | --- |
-| **[engineering-notes](https://github.com/jonaas-dev/engineering-notes)** | A reading notebook on engineering and technical leadership, kept since 2023: architecture, code quality, backend, delivery and career. 63 notes, consolidated from eight separate repositories. |
+| **[engineering-notes](https://github.com/jonaas-dev/engineering-notes)** | A reading notebook on engineering and technical leadership: architecture, code quality, backend, delivery and career. 63 notes that had scattered across folders and eight repositories, found and put in order. |
 
 Most of what I work on is private. This list grows as that changes rather than being padded to
 look longer.
