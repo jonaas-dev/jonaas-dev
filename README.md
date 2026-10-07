@@ -88,6 +88,7 @@ Software that is still cheap to change in year three is the whole objective.
 
 | Project | What it is |
 | --- | --- |
+| **[obsidian-margin-comments](https://github.com/jonaas-dev/obsidian-margin-comments)** | Margin Comments, an Obsidian plugin: comment on your notes the way you would on a shared document. Threaded replies, resolve and reopen, and a panel for every conversation, while the Markdown stays untouched. TypeScript and CodeMirror 6, on desktop and mobile. |
 | **[engineering-notes](https://github.com/jonaas-dev/engineering-notes)** | A reading notebook on engineering and technical leadership: architecture, code quality, backend, delivery and career. 63 notes that had scattered across folders and eight repositories, found and put in order. |
 
 Most of what I work on is private. This list grows as that changes rather than being padded to
